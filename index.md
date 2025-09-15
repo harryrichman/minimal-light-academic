@@ -23,12 +23,10 @@ I am a Ph.D. student at National Taiwan University, advised by Bourbaki.
 ## Service
 
 #### Conference Reviewer
-
 - European Conference on Computer Vision (ECCV) 2022
 - Formal Power Series and Algebraic Combinatorics (FPSAC) 2028
 
 #### Journal Reviewer
-
 - INTEGERS
 - Electronic Journal of Combinatorics
 - Inventiones
