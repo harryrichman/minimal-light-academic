@@ -6,7 +6,7 @@ layout: homepage
 
 I am a Ph.D. student at National Taiwan University, advised by Chee-Chun Leung (梁次震).
 I study equations of the form $$\int_0^\infty e^{-2\pi x^2} \, dx$$.
-I am also interested in the homology groups \(H_k(\mathcal M_g, \mathbb Q)\).
+I am also interested in the homology groups \\(H_k(\mathcal M_g, \mathbb Q)\\).
 
 ## Research Interests
 
