@@ -5,6 +5,7 @@ layout: homepage
 ## About Me
 
 I am a Ph.D. student at National Taiwan University, advised by Bourbaki.
+I study equations of the form $$\int_0^\infty e^{2\pi x} \, dx$$.
 
 ## Research Interests
 
