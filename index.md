@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 
 I am a Ph.D. student at National Taiwan University, advised by Bourbaki.
-I study equations of the form $$\int_0^\infty e^{2\pi x} \, dx$$.
+I study equations of the form $$\int_0^\infty e^{-2\pi x^2} \, dx$$.
 
 ## Research Interests
 
@@ -19,7 +19,7 @@ I study equations of the form $$\int_0^\infty e^{2\pi x} \, dx$$.
 - **[Sept. 2019]** Started Ph.D. program at NTU
 - **[Mar. 2019]** Graduated from Univeristy of Washington with bachelors degree.
 
-{% include_relative _includes/publications.liquid %}
+{% include_relative _includes/publications.html %}
 
 ## Service
 
