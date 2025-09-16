@@ -15,7 +15,7 @@
     {% endif %}
     {% else %}
     {% if link.conference_short %} 
-    <abbr class="badge" style="width=100;>{{ link.conference_short }}</abbr>
+    <abbr class="badge" style="width=100;">{{ link.conference_short }}</abbr>
     {% endif %}
     {% endif %}
   </div>
