@@ -32,4 +32,3 @@ I am a Ph.D. student at National Taiwan University, advised by Bourbaki.
 - Taiwanese J. Math.
 - Inventiones
   
-{% include_relative _includes/services.md %}
