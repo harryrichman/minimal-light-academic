@@ -16,6 +16,13 @@ main:
     pdf: https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2025/50.pdf
     arxiv: https://arxiv.org/abs/2411.11488
     conference_short: FPSAC
+    conference: Formal Power Series and Algebraic Combinatorics
+
+  - title: Counting two-forests and random cut size via potential theory
+    authors: Harry Richman, Farbod Shokrieh, Chenxi Wu
+    arxiv: https://arxiv.org/abs/2308.03859
+    conference_short: Ann. Inst. Henri Poincare B
+    conference: Annales Institut Henri Poincare Probab Stat
 
   - title: Descartes' rule of signs for finite fields
     authors: Harry Richman
