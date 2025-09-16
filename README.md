@@ -42,7 +42,6 @@ An improved vision from [@Xiao-Chenguang](https://github.com/Xiao-Chenguang): [[
 ├── Gemfile                                   #  
 ├── LICENSE                                   #  the license file
 ├── README.md                                 #  readme file (English)
-├── README_de.md                              #  readme file (German)
 ├── README_zh_Hans.md                         #  readme file (Simplified Chinese)
 ├── README_zh_Hant.md                         #  readme file (Traditional Chinese)
 ├── _config.yml                               #  Jekyll configuration file, including some options of the page  
