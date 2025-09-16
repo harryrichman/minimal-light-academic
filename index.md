@@ -6,7 +6,12 @@ layout: homepage
 
 I am a Ph.D. student at National Taiwan University, advised by Chee-Chun Leung (梁次震).
 I study equations of the form $$\int_0^\infty e^{-2\pi x^2} \, dx$$.
-I am also interested in the homology groups \\(H_k(\mathcal M_g, \mathbb Q)\\).
+I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
+$$\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$$
+.
+
+I have experience teaching the fundamental theorem of calculus
+\\[ \int_a^b f'(x) \, dx = f(b) - f(a) .\\]
 
 ## Research Interests
 
@@ -26,13 +31,17 @@ I am also interested in the homology groups \\(H_k(\mathcal M_g, \mathbb Q)\\).
 
 ## Service
 
-#### Conference Reviewer
-- European Conference on Computer Vision (ECCV) 2022
-- Formal Power Series and Algebraic Combinatorics (FPSAC) 2028
+#### Organizer 
+- Student Combinatorics Seminar, University of Washington
+- Directed Reading Program
 
 #### Journal Reviewer
 - INTEGERS
 - Electronic Journal of Combinatorics
 - Taiwanese J. Math.
 - Inventiones
-  
+
+#### Conference Reviewer
+- European Conference on Computer Vision (ECCV) 2022
+- Formal Power Series and Algebraic Combinatorics (FPSAC) 2028
+
