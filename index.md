@@ -18,7 +18,7 @@ I am a Ph.D. student at National Taiwan University, advised by Bourbaki.
 - **[Sept. 2019]** Started Ph.D. program at NTU
 - **[Mar. 2019]** Graduated from Univeristy of Washington with bachelors degree.
 
-{% include_relative _includes/publications.md %}
+{% include_relative _includes/publications.liquid %}
 
 ## Service
 
