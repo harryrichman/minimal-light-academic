@@ -1,5 +1,9 @@
 main:
 
+  - title: Determinant formula for \(q\)-distance matrices of trees
+    authors: Gary Fishman
+    notes: submitted
+  
   - title: Vector encoding of phylogenetic trees by ordered leaf attachment
     authors: Harry Richman, Cheng Zhang, Erick Matsen
     pdf: https://arxiv.org/pdf/2503.10169
@@ -7,14 +11,16 @@ main:
     image: ./assets/img/ola_tree.png
     notes: submitted
 
+  - title: Principal minors of tree distance matrices
+    authors: Harry Richman, Farbod Shokrieh, Chenxi Wu
+    pdf: https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2025/50.pdf
+    arxiv: https://arxiv.org/abs/2411.11488
+    conference_short: FPSAC
+
   - title: Descartes' rule of signs for finite fields
     authors: Harry Richman
     notes: in preparation
 
-  - title: Determinant formula for \(q\)-distance matrices of trees
-    authors: Gary Fishman
-    notes: submitted
-  
   - title: Ricci flow on graphs for community detection
     authors: Harry Richman, Marco Sutti
     pdf: https://arxiv.org/pdf/2002.10211.pdf
