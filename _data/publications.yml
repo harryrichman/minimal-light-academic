@@ -2,8 +2,12 @@ main:
 
   - title: Determinant formula for \(q\)-distance matrices of trees
     authors: Gary Fishman
-    notes: submitted
+    notes: in preparation
   
+  - title: Descartes' rule of signs for finite fields
+    authors: Gary Fishman
+    notes: in preparation
+
   - title: Vector encoding of phylogenetic trees by ordered leaf attachment
     authors: Harry Richman, Cheng Zhang, Erick Matsen
     conference_short: Bull. Math. Biol.
@@ -25,12 +29,24 @@ main:
     conference_short: Ann. Inst. Henri Poincare B
     conference: Annales Institut Henri Poincare Probab Stat
 
-  - title: Descartes' rule of signs for finite fields
-    authors: Harry Richman
-    notes: in preparation
-
   - title: Ricci flow on graphs for community detection
     authors: Harry Richman, Marco Sutti
     pdf: https://arxiv.org/pdf/2002.10211.pdf
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     image: ./assets/img/teaser_example.png
+
+  - title: Lower rational approximations and Farey staircases
+    authors: Harry Richman
+    conference_short: Integers
+    arxiv: https://arxiv.org/abs/2303.02935
+
+  - title: The floor quotient partial order
+    authors: Jeffrey Lagarias, Harry Richman
+    conference_short: Adv. Appl. Math.
+    arxiv: https://arxiv.org/abs/2212.11689
+    code: https://harryrichman.github.io/floor-quotients-app/
+
+  - title: Derangements and the $p$-adic incomplete gamma function
+    authors: Andrew O'Desky, Harry Richman
+    conference_short: Transactions Amer. Math. Soc.
+    arxiv: https://arxiv.org/abs/2012.04615

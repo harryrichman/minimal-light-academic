@@ -2,13 +2,13 @@
 title: Gary Fishman
 position: Ph.D. Student
 affiliation: National Taiwan University 國立台灣大學
-email: yourname (at) example.edu
+email: fishman (at) university.edu
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?user=_D7ce2cAAAAJ&sortby=pubdate
 cv_link: assets/files/curriculum_vitae.pdf
-linkedin: https://www.linkedin.com/
+linkedin: https://www.linkedin.com/in/harry-richman/
 twitter: https://twitter.com/
 
 # Images (e.g., your profile picture and your website's favicon) 
@@ -19,9 +19,9 @@ favicon_dark: ./assets/img/favicon-dark.png
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Gary Fishman academic research mathematics
+description: The academic personal homepage of Gary Fishman.
+canonical: https://harryrichman.github.io/minimal-light-academic/
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
