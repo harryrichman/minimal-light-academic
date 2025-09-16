@@ -12,6 +12,10 @@ $$\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$$
 
 I have experience teaching the fundamental theorem of calculus
 \\[ \int_a^b f'(x) \, dx = f(b) - f(a) .\\]
+This is related to the isomorphism
+$$$$ \mathrm{Pic}^0(X) \cong \mathrm{Jac}(X) $$$$
+when $X$ is an algebraic curve.
+
 
 ## Research Interests
 
