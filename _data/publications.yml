@@ -6,6 +6,7 @@ main:
   
   - title: Vector encoding of phylogenetic trees by ordered leaf attachment
     authors: Harry Richman, Cheng Zhang, Erick Matsen
+    conference_short: Bull. Math. Biol.
     pdf: https://arxiv.org/pdf/2503.10169
     code: https://github.com/matsengrp/ola-encoding
     image: ./assets/img/ola_tree.png
