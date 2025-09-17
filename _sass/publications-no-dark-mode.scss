@@ -195,3 +195,20 @@ screen and (min-width: 480px) {
   margin-bottom: 5px;
   object-fit: cover;
 }
+
+// notes
+
+.notes ul.notes_list li .links a.btn {
+  color: #000000;
+  border: 1px solid #000000;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.notes ul.notes_list li .links a.btn:hover {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+

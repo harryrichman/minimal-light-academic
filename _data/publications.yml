@@ -5,7 +5,7 @@ main:
     conference_short: Bull. Math. Biol.
     pdf: https://arxiv.org/pdf/2503.10169
     code: https://github.com/matsengrp/ola-encoding
-    image: ./assets/img/ola_tree.png
+    image: ./assets/img/ola_tree_thumb.png
     notes: submitted
 
   - title: Principal minors of tree distance matrices
@@ -41,7 +41,8 @@ main:
 
   - title: Derangements and the $p$-adic incomplete gamma function
     authors: Andrew O'Desky, Harry Richman
-    conference_short: Transactions Amer. Math. Soc.
+    conference_short: Transactions AMS
+    conference: Transactions Amer. Math. Soc.
     year: 2023
     link: https://doi.org/10.1090/tran/8716
     bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=derangements%20and%20p%20adic&year=2023
