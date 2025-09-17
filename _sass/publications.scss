@@ -1,0 +1,21 @@
+@import 'publications-no-dark-mode';   
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --global-theme-color: rgb(36, 150, 203);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .publications ol.bibliography li .links a.btn {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+  }
+
+}
+
