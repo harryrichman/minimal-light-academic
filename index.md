@@ -35,6 +35,8 @@ I grew up in [Yakima](https://en.wikipedia.org/wiki/Yakima,_Washington), Washing
 
 {% include_relative _includes/publications.html %}
 
+## Notes and Presentations
+
 ## Service
 
 #### Organizer 

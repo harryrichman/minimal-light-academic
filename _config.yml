@@ -2,18 +2,22 @@
 title: Gary Fishman
 position: Ph.D. Student
 affiliation: National Taiwan University 國立台灣大學
+affiliation_link: https://www.math.ntu.edu.tw/
 email: fishman (at) university.edu
 
 # Links 
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/citations?user=_D7ce2cAAAAJ&sortby=pubdate
+# For those you don't need, delete or comment out the corresponding line.
 cv_link: assets/files/curriculum_vitae.pdf
-linkedin: https://www.linkedin.com/in/harry-richman/
-twitter: https://twitter.com/
+arxiv: https://arxiv.org/a/0000-0002-0101-0521
+orcid: https://orcid.org/0000-0002-0101-0521
+math_overflow: https://mathoverflow.net/users/81295/harry-richman
+github_link: https://github.com/harryrichman
+# linkedin: https://www.linkedin.com/in/harry-richman/
+# google_scholar: https://scholar.google.com/citations?user=_D7ce2cAAAAJ&sortby=pubdate
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/cave.jpg
+avatar: ./assets/img/profile.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
@@ -23,20 +27,16 @@ keywords: Gary Fishman academic research mathematics
 description: The academic personal homepage of Gary Fishman.
 canonical: https://harryrichman.github.io/minimal-light-academic/
 
-# Font
-# You can use this option to choose between Serif or Sans Serif fonts.
+# Customization
+# option to choose between Serif or Sans Serif fonts.
 font: "Sans Serif" # or "Serif"
+# option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: true
+# option to disable the automatic dark theme
+auto_dark_mode: true
 
 # Build settings
 markdown: kramdown
-
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
-
-# Auto Dark Mode
-# You may use the option to disable the automatic dark theme
-auto_dark_mode: true
 
 # Google Analytics ID
 # Please uncomment this if you use Google Analytics

@@ -1,6 +1,8 @@
-# The Minimal Light Theme
+# Minimal Light Theme
 
 [![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+
+This is a fork of an academic website template created by Yaoyao Liu.
 
 \[[Demo the theme](https://harryrichman.github.io/minimal-light-academic/)\]  \[[简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md)\]
  

@@ -3,6 +3,11 @@
 
 @import "minimal-light";
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .image.avatar img {
     width: 85%;
     border-radius: 15%;
