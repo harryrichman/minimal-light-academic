@@ -1,62 +1,67 @@
 <div class="publications">
-<ol class="bibliography">
+  <ol class="bibliography">
 
-{% for pub in site.data.publications.main %}
+    {% for pub in site.data.publications.main %}
 
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if pub.image %} 
-    <img src="{{ pub.image }}" class="teaser img-fluid z-depth-1">
-    {% if pub.conference_short %} 
-    <abbr class="badge">{{ pub.conference_short }}</abbr>
-    {% endif %}
-    {% else %}
-    <div class="teaser" style="box-shadow: none;">
-    {% if pub.conference_short %} 
-    <abbr class="badge" style="margin-top: 10%;">{{ pub.conference_short }}</abbr>
-    {% endif %}
-    </div>
-    {% endif %}
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    {% if pub.link %}
-      <div class="title"><a href="{{ pub.link }}">{{ pub.title }}</a></div>
-    {% else %}
-      <div class="title">{{ pub.title }}</div>
-    {% endif %}
-      <div class="author">{{ pub.authors }}</div>
-      <div class="periodical"><em>{{ pub.conference }}</em>
+    <li>
+      <div class="pub-row">
+        <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+          {% if pub.image %}
+          <img src="{{ pub.image }}" class="teaser img-fluid z-depth-1">
+          {% if pub.conference_short %}
+          <abbr class="badge">{{ pub.conference_short }}</abbr>
+          {% endif %}
+          {% else %}
+          <div class="teaser" style="box-shadow: none;">
+            {% if pub.conference_short %}
+            <abbr class="badge" style="margin-top: 10%;">{{ pub.conference_short }}</abbr>
+            {% endif %}
+          </div>
+          {% endif %}
+        </div>
+        <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          {% if pub.link %}
+          <div class="title"><a href="{{ pub.link }}">{{ pub.title }}</a></div>
+          {% else %}
+          <div class="title">{{ pub.title }}</div>
+          {% endif %}
+          <div class="author">{{ pub.authors }}</div>
+          <div class="periodical"><em>{{ pub.conference }}</em>
+          </div>
+          <div class="links">
+            {% if pub.pdf %}
+            <a href="{{ pub.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+              style="font-size:12px;">PDF</a>
+            {% endif %}
+            {% if pub.arxiv %}
+            <a href="{{ pub.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+              style="font-size:12px;">arXiv</a>
+            {% endif %}
+            {% if pub.code %}
+            <a href="{{ pub.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+              style="font-size:12px;">Code</a>
+            {% endif %}
+            {% if pub.page %}
+            <a href="{{ pub.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+              style="font-size:12px;">Project Page</a>
+            {% endif %}
+            {% if pub.bibtex %}
+            <a href="{{ pub.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+              style="font-size:12px;">BibTex</a>
+            {% endif %}
+            {% if pub.notes %}
+            <strong> <i style="color:#e74d3c">{{ pub.notes }}</i></strong>
+            {% endif %}
+            {% if pub.others %}
+            {{ pub.others }}
+            {% endif %}
+          </div>
+        </div>
       </div>
-    <div class="links">
-      {% if pub.pdf %} 
-      <a href="{{ pub.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if pub.arxiv %} 
-      <a href="{{ pub.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">arXiv</a>
-      {% endif %}
-      {% if pub.code %} 
-      <a href="{{ pub.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if pub.page %} 
-      <a href="{{ pub.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if pub.bibtex %} 
-      <a href="{{ pub.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if pub.notes %} 
-      <strong> <i style="color:#e74d3c">{{ pub.notes }}</i></strong>
-      {% endif %}
-      {% if pub.others %} 
-      {{ pub.others }}
-      {% endif %}
-    </div>
-  </div>
-</div>
-</li>
-<br>
+    </li>
+    <br>
 
-{% endfor %}
+    {% endfor %}
 
-</ol>
+  </ol>
 </div>

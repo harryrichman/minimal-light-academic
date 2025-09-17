@@ -32,7 +32,7 @@ font: "Sans Serif" # or "Serif"
 # option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
 enable_footnote: true
 # option to disable the automatic dark theme
-auto_dark_mode: true
+auto_dark_mode: false
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
