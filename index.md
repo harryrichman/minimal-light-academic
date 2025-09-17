@@ -5,7 +5,10 @@ layout: homepage
 ## About Me
 
 I am a Ph.D. student at National Taiwan University, advised by Chee-Chun Leung (梁次震).
-I study equations of the form $\int_0^\infty e^{-2\pi x^2} \, dx$.
+I study equations of the form 
+
+$$\int_0^\infty e^{-2\pi x^2} \, dx$$
+
 I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
 $\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$
 .
@@ -36,6 +39,8 @@ I grew up in [Yakima](https://en.wikipedia.org/wiki/Yakima,_Washington), Washing
 {% include_relative _includes/publications.html %}
 
 ## Notes and Presentations
+
+{% include_relative _includes/notes.html %}
 
 ## Service
 
