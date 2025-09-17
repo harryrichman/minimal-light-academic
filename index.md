@@ -4,19 +4,16 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at National Taiwan University, advised by Chee-Chun Leung (梁次震).
-I study equations of the form $ \int_0^\infty e^{-2\pi x^2} \, dx $.
+I am a Ph.D. student at National Taiwan University, advised by [Chee-Chun Leung (梁次震)](https://www.theplan.it/eng/award-2020-Education/ntu-chee-chun-leung-cosmology-hall-a-floating-cube-in-space-kris-yao-artech).
+I study equations of the form $\int_0^\infty e^{-2\pi x^2} \, dx$.
 I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
-$\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$
-.
+$\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$.
 
 I have experience teaching the fundamental theorem of calculus
 \\[ \int_a^b f'(x) \, dx = f(b) - f(a) .\\]
 This is related to the isomorphism
-$\mathrm{Pic}^0(X) \cong \mathrm{Jac}(X) \cong H^1(X) / H_1(X, \mathbb Z)$
+$\mathrm{Pic}^0(X) \cong H^0(X, \Omega^1)^\vee / H_1(X, \mathbb Z)$
 when $X$ is an algebraic curve.
-
-I grew up in [Yakima](https://en.wikipedia.org/wiki/Yakima,_Washington), Washington.
 
 ## Research Interests
 
