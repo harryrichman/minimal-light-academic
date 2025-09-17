@@ -16,7 +16,7 @@ This is related to the isomorphism
 $\mathrm{Pic}^0(X) \cong \mathrm{Jac}(X) \cong H^1(X) / H_1(X, \mathbb Z)$
 when $X$ is an algebraic curve.
 
-I grew up in Yakima, Washington.
+I grew up in [Yakima](https://en.wikipedia.org/wiki/Yakima,_Washington), Washington.
 
 ## Research Interests
 
