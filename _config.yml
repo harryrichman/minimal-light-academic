@@ -1,3 +1,8 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+
 # Basic Information 
 title: Gary Fishman
 position: Ph.D. Student
@@ -21,12 +26,6 @@ avatar: ./assets/img/profile.jpg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Gary Fishman academic research mathematics
-description: The academic personal homepage of Gary Fishman.
-canonical: https://harryrichman.github.io/minimal-light-academic/
-
 # Customization
 # option to choose between Serif or Sans Serif fonts.
 font: "Sans Serif" # or "Serif"
@@ -35,12 +34,18 @@ enable_footnote: true
 # option to disable the automatic dark theme
 auto_dark_mode: true
 
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: Gary Fishman academic research mathematics
+description: The academic personal homepage of Gary Fishman.
+canonical: https://harryrichman.github.io/minimal-light-academic/
+
 # Build settings
 markdown: kramdown
 
 # Google Analytics ID
 # Please uncomment this if you use Google Analytics
-# google_analytics: UA-111540567-4
+# google_analytics: UA-000000000-0
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
@@ -50,9 +55,9 @@ remote_theme: yaoyao-liu/minimal-light
 exclude:
   - Gemfile
   - Gemfile.lock
+  - html_site/
+  - LICENSE
   - README.md
   - README_zh_Hans.md
   - README_zh_Hant.md
-  - LICENSE
   - minimal-light.gemspec
-  - html_source_file/

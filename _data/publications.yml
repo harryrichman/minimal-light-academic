@@ -21,18 +21,13 @@ main:
     conference_short: Ann. Inst. Henri Poincare B
     conference: Annales Institut Henri Poincare Probab Stat
 
-  - title: Ricci flow on graphs for community detection
-    authors: Harry Richman, Marco Sutti
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    image: ./assets/img/teaser_example.png
-
   - title: Lower rational approximations and Farey staircases
     authors: Harry Richman
     conference_short: Integers
     year: 2024
     arxiv: https://arxiv.org/abs/2303.02935
     bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=lower%20rational%20approximations
+    image: ./assets/img/farey_staircase_thumb.png
 
   - title: The floor quotient partial order
     authors: Jeffrey Lagarias, Harry Richman
@@ -42,6 +37,7 @@ main:
     arxiv: https://arxiv.org/abs/2212.11689
     bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=floor%20quotient%20partial%20order&year=2024
     code: https://harryrichman.github.io/floor-quotients-app/
+    image: ./assets/img/floor_quotient_thumb.png
 
   - title: Derangements and the $p$-adic incomplete gamma function
     authors: Andrew O'Desky, Harry Richman
@@ -51,11 +47,8 @@ main:
     bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=derangements%20and%20p%20adic&year=2023
     arxiv: https://arxiv.org/abs/2012.04615
 
-  - title: Determinant formula for \(q\)-distance matrices of trees
-    authors: Gary Fishman
-    notes: in preparation
-  
   - title: Descartes' rule of signs for finite fields
     authors: Gary Fishman
     notes: in preparation
+    image: ./assets/img/teaser_example.png
 
