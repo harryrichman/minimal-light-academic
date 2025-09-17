@@ -32,18 +32,23 @@ main:
     conference_short: Integers
     year: 2024
     arxiv: https://arxiv.org/abs/2303.02935
+    bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=lower%20rational%20approximations
 
   - title: The floor quotient partial order
     authors: Jeffrey Lagarias, Harry Richman
     conference_short: Adv. Appl. Math.
     year: 2024
+    link: https://doi.org/10.1016/j.aam.2023.102615
     arxiv: https://arxiv.org/abs/2212.11689
+    bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=floor%20quotient%20partial%20order&year=2024
     code: https://harryrichman.github.io/floor-quotients-app/
 
   - title: Derangements and the $p$-adic incomplete gamma function
     authors: Andrew O'Desky, Harry Richman
     conference_short: Transactions Amer. Math. Soc.
     year: 2023
+    link: https://doi.org/10.1090/tran/8716
+    bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=derangements%20and%20p%20adic&year=2023
     arxiv: https://arxiv.org/abs/2012.04615
 
   - title: Determinant formula for \(q\)-distance matrices of trees
