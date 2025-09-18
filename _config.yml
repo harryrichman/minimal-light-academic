@@ -14,18 +14,18 @@ email: fishman (at) university.edu
 # For those you don't need, delete or comment out the corresponding line.
 cv_link: assets/files/shinchan_sample_cv.pdf
 arxiv: https://arxiv.org/a/0000-0002-0101-0521
-orcid: https://orcid.org/0000-0002-0101-0521
+google_scholar: https://scholar.google.com/citations?user=_D7ce2cAAAAJ&sortby=pubdate
 math_overflow: https://mathoverflow.net/users/81295/harry-richman
 github_link: https://github.com/harryrichman
 # linkedin: https://www.linkedin.com/in/harry-richman/
-# google_scholar: https://scholar.google.com/citations?user=_D7ce2cAAAAJ&sortby=pubdate
+# orcid: https://orcid.org/0000-0002-0101-0521
 
 # Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/profile_alt.jpg
-round_avatar: true
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
+round_avatar: false
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+# favicon: ./assets/img/favicon.png
+# favicon_dark: ./assets/img/favicon-dark.png
 
 # Customization
 # option to choose between Serif or Sans Serif fonts.
