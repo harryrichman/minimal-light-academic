@@ -35,6 +35,13 @@
   {% else %}
   <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
   {% endif %}
+  {% if site.round_avatar %}
+  <style>
+    .image.avatar img {
+      border-radius: 100%;
+    }
+  </style>
+  {% endif %}
 
   <!-- for mathjax support -->
   {% include_relative _includes/mathjax.html %}
@@ -123,8 +130,8 @@
       {% if site.enable_footnote %}
       <p>
         <small>
-          <a href="https://github.com/harryrichman/minimal-light-academic">Source</a> on GitHub.
-          Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank"
+          <!-- <a href="https://github.com/harryrichman/minimal-light-academic">Source</a> on GitHub. -->
+          Powered by Jekyll and <a href="https://github.com/harryrichman/minimal-light-academic" target="_blank"
             rel="noopener">Minimal Light</a> theme. 
         </small>
       </p>
