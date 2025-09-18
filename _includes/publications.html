@@ -8,13 +8,13 @@
         <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
           {% if pub.image %}
           <img src="{{ pub.image }}" class="teaser img-fluid z-depth-1">
-          {% if pub.conference_short %}
-          <abbr class="badge">{{ pub.conference_short }}</abbr>
+          {% if pub.journal_short %}
+          <abbr class="badge">{{ pub.journal_short }}</abbr>
           {% endif %}
           {% else %}
           <div class="teaser" style="box-shadow: none;">
-            {% if pub.conference_short %}
-            <abbr class="badge" style="margin-top: 10%;">{{ pub.conference_short }}</abbr>
+            {% if pub.journal_short %}
+            <abbr class="badge" style="margin-top: 10%;">{{ pub.journal_short }}</abbr>
             {% endif %}
           </div>
           {% endif %}
@@ -26,7 +26,7 @@
           <div class="title">{{ pub.title }}</div>
           {% endif %}
           <div class="author">{{ pub.authors }}</div>
-          <div class="periodical"><em>{{ pub.conference }}</em>
+          <div class="periodical"><em>{{ pub.journal }}</em>
           </div>
           <div class="links">
             {% if pub.pdf %}

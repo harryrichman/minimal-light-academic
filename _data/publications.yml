@@ -2,7 +2,7 @@ main:
 
   - title: Vector encoding of phylogenetic trees by ordered leaf attachment
     authors: Harry Richman, Cheng Zhang, Erick Matsen
-    conference_short: Bull. Math. Biol.
+    journal_short: Bull. Math. Biol.
     pdf: https://arxiv.org/pdf/2503.10169
     code: https://github.com/matsengrp/ola-encoding
     image: ./assets/img/ola_tree_thumb.png
@@ -12,18 +12,18 @@ main:
     authors: Harry Richman, Farbod Shokrieh, Chenxi Wu
     pdf: https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2025/50.pdf
     arxiv: https://arxiv.org/abs/2411.11488
-    conference_short: FPSAC
-    conference: Formal Power Series and Algebraic Combinatorics
+    journal_short: FPSAC
+    journal: Formal Power Series and Algebraic Combinatorics
 
   - title: Counting two-forests and random cut size via potential theory
     authors: Harry Richman, Farbod Shokrieh, Chenxi Wu
     arxiv: https://arxiv.org/abs/2308.03859
-    conference_short: Ann. Inst. Henri Poincare B
-    conference: Annales Institut Henri Poincare Probab Stat
+    journal_short: Ann. Inst. Henri Poincare B
+    journal: Annales Institut Henri Poincare Probab Stat
 
   - title: Lower rational approximations and Farey staircases
     authors: Harry Richman
-    conference_short: Integers
+    journal_short: Integers
     year: 2024
     arxiv: https://arxiv.org/abs/2303.02935
     bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=lower%20rational%20approximations
@@ -31,7 +31,7 @@ main:
 
   - title: The floor quotient partial order
     authors: Jeffrey Lagarias, Harry Richman
-    conference_short: Adv. Appl. Math.
+    journal_short: Adv. Appl. Math.
     year: 2024
     link: https://doi.org/10.1016/j.aam.2023.102615
     arxiv: https://arxiv.org/abs/2212.11689
@@ -41,8 +41,8 @@ main:
 
   - title: Derangements and the $p$-adic incomplete gamma function
     authors: Andrew O'Desky, Harry Richman
-    conference_short: Transactions AMS
-    conference: Transactions Amer. Math. Soc.
+    journal_short: Transactions AMS
+    journal: Transactions Amer. Math. Soc.
     year: 2023
     link: https://doi.org/10.1090/tran/8716
     bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=derangements%20and%20p%20adic&year=2023
