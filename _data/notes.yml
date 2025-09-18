@@ -1,9 +1,16 @@
 main:
 
-  - title: Graph homomorphisms
-    pdf: xyz
+  - title: Vector encoding of phylogenetic trees
+    date: September 2024
+    poster: ./assets/files/ola_code_poster.pdf
 
   - title: Ricci curvature on graphs
+    date: January 2024
+    venue: JMM San Francisco
+    slides: ./assets/files/ricci_flow_slides.pdf
 
-  - title: Phylogenetic inference
-    slides: xyz
+  - title: Matchings in convergent graph sequences
+    date: March 2017
+    pdf: ./assets/files/matchings_convergent_notes.pdf
+
+    

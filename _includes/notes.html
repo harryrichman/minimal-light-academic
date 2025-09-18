@@ -22,11 +22,19 @@
         </div>
         {% endif %}
         <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-          {% if note.link %}
-          <div class="title"><a href="{{ note.link }}">{{ note.title }}</a></div>
-          {% else %}
-          <div class="title">{{ note.title }}</div>
-          {% endif %}
+          <div class="title">
+            {% if note.link %}
+            <a href="{{ note.link }}">{{ note.title }}</a>
+            {% else %}
+            {{ note.title }}
+            {% endif %}
+            {% if note.venue %}
+            &ZeroWidthSpace;, {{ note.venue }}
+            {% endif %}
+            {% if note.date %}
+            &ZeroWidthSpace;, {{ note.date }}
+            {% endif %}
+          </div>
           <div class="author">{{ note.authors }}</div>
           <div class="periodical"><em>{{ note.conference }}</em>
           </div>
@@ -34,6 +42,14 @@
             {% if note.pdf %}
             <a href="{{ note.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">PDF</a>
+            {% endif %}
+            {% if note.slides %}
+            <a href="{{ note.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+              style="font-size:12px;">slides</a>
+            {% endif %}
+            {% if note.poster %}
+            <a href="{{ note.poster }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+              style="font-size:12px;">poster</a>
             {% endif %}
             {% if note.arxiv %}
             <a href="{{ note.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
