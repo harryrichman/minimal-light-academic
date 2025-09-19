@@ -27,7 +27,7 @@ main:
 
   - title: Derangements and the $p$-adic incomplete gamma function
     authors: Andrew O'Desky, Harry Richman
-    journal_short: Transactions AMS
+    journal_short: Trans AMS
     journal: Transactions Amer. Math. Soc.
     year: 2023
     link: https://doi.org/10.1090/tran/8716
@@ -44,7 +44,7 @@ main:
   - title: Counting two-forests and random cut size via potential theory
     authors: Harry Richman, Farbod Shokrieh, Chenxi Wu
     arxiv: https://arxiv.org/abs/2308.03859
-    journal_short: Ann. Inst. Henri Poincare B
+    journal_short: AIHP B
     journal: Annales Institut Henri Poincare Probab Stat
 
   - title: Descartes' rule of signs for finite fields

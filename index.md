@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 
 I am a Ph.D. student at National Taiwan University, advised by [Chee-Chun Leung (梁次震)](https://www.theplan.it/eng/award-2020-Education/ntu-chee-chun-leung-cosmology-hall-a-floating-cube-in-space-kris-yao-artech).
-Before coming to MTU I studied math at the [University of Washington](http://math.washington.edu/).
+Before coming to NTU I studied math at the [University of Washington](http://math.washington.edu/).
 
 I study equations of the form $\int_0^\infty e^{-2\pi x^2} \, dx$.
 I am also interested in the  groups \\(H_k(\mathcal M_g, \mathbb Q)\\) and 
