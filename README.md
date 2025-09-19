@@ -28,26 +28,25 @@ An improved vision from [@Xiao-Chenguang](https://github.com/Xiao-Chenguang): [[
 ```
 .
 ├── _data                    
-|   └── publications.yml                      # the YAML file for publications
+|   └── publications.yml                      # the data for your publications
 ├── _includes                    
-|   ├── publications.md                       # the Markdown file for publications
-|   └── services.md                           # the Markdown file for services
+|   ├── publications.html                     # the formatting for publications
+|   └── services.html                         # the formatting for services
 ├── _layouts                  
-|   └── homepage.html                         #  the html template for the homepage 
+|   └── homepage.html                         # the html template for the homepage 
 ├── _sass
-|   ├── minimal-light.scss                    #  compiled into a CSS file to control the style of the page              
-|   └── minimal-light-no-dark-mode.scss       #  similar to minimal-light.scss with the dark mode disabled
-├── assets                                    #  some files
-├── html_source_file                          #  compiled HTML files
-├── .gitignore                                #  this file specifies intentionally untracked files that Git should ignore
-├── CNAME                                     #  the custom domain, will be used by GitHub page sevice
+|   ├── minimal-light.scss                    # compiled into a CSS file to control the style of the page              
+|   └── minimal-light-no-dark-mode.scss       # similar to minimal-light.scss with the dark mode disabled
+├── assets                                    # some files
+├── html_source_file                          # compiled HTML files
+├── .gitignore                                # this file specifies intentionally untracked files that Git should ignore
 ├── Gemfile                                   #  
-├── LICENSE                                   #  the license file
-├── README.md                                 #  readme file (English)
-├── README_zh_Hans.md                         #  readme file (Simplified Chinese)
-├── README_zh_Hant.md                         #  readme file (Traditional Chinese)
-├── _config.yml                               #  Jekyll configuration file, including some options of the page  
-└── index.md                                  #  the content of the index page, using Markdown
+├── LICENSE                                   # the license file
+├── README.md                                 # readme file (English)
+├── README_zh_Hans.md                         # readme file (Simplified Chinese)
+├── README_zh_Hant.md                         # readme file (Traditional Chinese)
+├── _config.yml                               # Jekyll configuration file, including some options of the page  
+└── index.md                                  # the content of the index page, using Markdown
 ```
 
 ## Getting Started

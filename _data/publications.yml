@@ -1,5 +1,10 @@
 main:
 
+  - title: Descartes' rule of signs for finite fields
+    authors: Gary Fishman
+    notes: in preparation
+    image: ./assets/img/teaser_example.png
+
   - title: Vector encoding of phylogenetic trees by ordered leaf attachment
     authors: Harry Richman, Cheng Zhang, Erick Matsen
     pdf: https://arxiv.org/pdf/2503.10169
@@ -10,6 +15,7 @@ main:
   - title: Lower rational approximations and Farey staircases
     authors: Harry Richman
     journal_short: Integers
+    journal: Integers
     year: 2024
     arxiv: https://arxiv.org/abs/2303.02935
     bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=lower%20rational%20approximations
@@ -18,6 +24,7 @@ main:
   - title: The floor quotient partial order
     authors: Jeffrey Lagarias, Harry Richman
     journal_short: Adv. Appl. Math.
+    journal: Adv. App. Math.
     year: 2024
     link: https://doi.org/10.1016/j.aam.2023.102615
     arxiv: https://arxiv.org/abs/2212.11689
@@ -43,12 +50,9 @@ main:
 
   - title: Counting two-forests and random cut size via potential theory
     authors: Harry Richman, Farbod Shokrieh, Chenxi Wu
+    link:
+    year: 2025
     arxiv: https://arxiv.org/abs/2308.03859
     journal_short: AIHP B
-    journal: Annales Institut Henri Poincare Probab Stat
-
-  - title: Descartes' rule of signs for finite fields
-    authors: Gary Fishman
-    notes: in preparation
-    image: ./assets/img/teaser_example.png
+    journal: Annales Institut Henri Poincare Probab. Stat.
 
