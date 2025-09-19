@@ -3,12 +3,19 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 
+############################
+# Required Configuration
+############################
+
 # Basic Information 
 title: Gary Fishman
 position: Ph.D. Student
 affiliation: National Taiwan University<br>國立台灣大學
 affiliation_link: https://www.math.ntu.edu.tw/
 email: fishman (at) university.edu
+
+# Images (e.g., your profile picture) 
+avatar: ./assets/img/profile_alt.jpg
 
 # Links 
 # For those you don't need, delete or comment out the corresponding line.
@@ -20,12 +27,16 @@ github_link: https://github.com/harryrichman
 # linkedin: https://www.linkedin.com/in/harry-richman/
 # orcid: https://orcid.org/0000-0002-0101-0521
 
-# Images (e.g., your profile picture and your website's favicon) 
-avatar: ./assets/img/profile_alt.jpg
-round_avatar: false
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-# favicon: ./assets/img/favicon.png
-# favicon_dark: ./assets/img/favicon-dark.png
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: Gary Fishman academic research mathematics
+description: The academic personal homepage of Gary Fishman.
+canonical: https://harryrichman.github.io/minimal-light-academic/
+
+
+############################
+# Optional Configuration
+############################
 
 # Customization
 # option to choose between Serif or Sans Serif fonts.
@@ -34,21 +45,25 @@ font: "Sans Serif" # or "Serif"
 enable_footnote: true
 # option to toggle the automatic dark theme
 auto_dark_mode: true
+# option to make avatar (profile photo) round vs rectangular
+round_avatar: false
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+# favicon: ./assets/img/favicon.png
+# favicon_dark: ./assets/img/favicon-dark.png
 
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Gary Fishman academic research mathematics
-description: The academic personal homepage of Gary Fishman.
-canonical: https://harryrichman.github.io/minimal-light-academic/
+# Google Analytics ID
+# Please uncomment this if you use Google Analytics
+# google_analytics: UA-000000000-0
+
+
+############################
+# Fixed Configuration (ignore this for non-experts)
+############################
 
 # Build settings
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge
-
-# Google Analytics ID
-# Please uncomment this if you use Google Analytics
-# google_analytics: UA-000000000-0
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll

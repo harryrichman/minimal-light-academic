@@ -1,17 +1,18 @@
 {% if site.data.services %}
-<h2>Services</h2>
+<div class="service">
 
-{% for group in site.data.services.main %}
+  {% for group in site.data.services.main %}
 
-<h4 style="margin:0 10px 0;">{{ group[0] }}</h4>
+  <h4 style="margin:0 10px 0;">{{ group[0] }}</h4>
 
-<ul style="margin:0 0 5px;">
-  {% for position in group[1] %}
-  <li><a href="{{ position.link }}">
-      <autocolor>{{ position.title }}</autocolor>
-    </a></li>
+  <ul style="margin:0 0 5px;">
+    {% for position in group[1] %}
+    <li><a href="{{ position.link }}">
+        <autocolor>{{ position.title }}</autocolor>
+      </a></li>
+    {% endfor %}
+  </ul>
+
   {% endfor %}
-</ul>
-
-{% endfor %}
+</div>
 {% endif %}
