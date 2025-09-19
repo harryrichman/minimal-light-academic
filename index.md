@@ -27,11 +27,11 @@ $\pi_k(\mathrm{Sym}^\infty \mathcal M^\mathrm{trop}_g)$.
 
 ## Publications
 
-{% if site.enable_publication_thumbnails %}
 {% include_relative _includes/publications.html %}
-{% else %}
-{% include_relative _includes/publications.html %}
-{% endif %}
+
+## Notes and Presentations
+
+{% include_relative _includes/notes.html %}
 
 ## Teaching
 
@@ -46,10 +46,6 @@ when $X$ is an algebraic curve.
 - Math 115, Calculus 1, Fall 2019
 - Math 208, Linear Algebra, Fall 2020
 
-## Notes and Presentations
-
-{% include_relative _includes/notes.html %}
-
 ## Service
 
 #### Organizer 
@@ -61,9 +57,6 @@ when $X$ is an algebraic curve.
 - Electronic Journal of Combinatorics
 - Taiwanese J. Math.
 - Inventiones
-
-#### Conference Reviewer
-- Formal Power Series and Algebraic Combinatorics (FPSAC) 2028
 
 ## Misc. Links
 
@@ -82,6 +75,6 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-A math quote:
+Markdown for a math quote:
 > God is always doing geometry  
 > -- Plato
