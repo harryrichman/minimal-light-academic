@@ -6,7 +6,7 @@
 # Basic Information 
 title: Gary Fishman
 position: Ph.D. Student
-affiliation: National Taiwan University 國立台灣大學
+affiliation: National Taiwan University<br>國立台灣大學
 affiliation_link: https://www.math.ntu.edu.tw/
 email: fishman (at) university.edu
 
@@ -43,6 +43,8 @@ canonical: https://harryrichman.github.io/minimal-light-academic/
 
 # Build settings
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
 
 # Google Analytics ID
 # Please uncomment this if you use Google Analytics
@@ -50,7 +52,7 @@ markdown: kramdown
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
-remote_theme: yaoyao-liu/minimal-light
+# remote_theme: yaoyao-liu/minimal-light
 
 # The following files will be removed from the generated website.
 exclude:

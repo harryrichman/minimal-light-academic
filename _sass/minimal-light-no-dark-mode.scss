@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+code {
+  font-size: 10pt;
+}
+
 .pub-row {
   display: flex;
   align-items: center;
@@ -192,10 +196,6 @@ papertitle {
   width: 100%;
 }
 
-// .image.avatar {
-//   border-radius: 100%;
-// }
-
 .image.avatar:before {
   display: none;
 }
@@ -295,7 +295,7 @@ pre {
 }
 
 pre {
-  max-width: 500px;
+  // max-width: 500px;
   padding: 8px 15px;
   background: #f8f8f8;
   border-radius: 5px;
