@@ -7,7 +7,7 @@ code {
   font-size: 10pt;
 }
 
-.pub-row {
+.pub-row, .note-row {
   display: flex;
   align-items: center;
 }
@@ -295,6 +295,9 @@ code,
 pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color: #333;
+  background-color: #f8f8f8;
+  border-radius: 2px;
+  padding: 0.2rem 0;
 }
 
 pre {
@@ -431,7 +434,7 @@ footer {
 @media print,
 screen and (max-width: 960px) {
 
-  .pub-row {
+  .pub-row, .note-row {
     display: flex;
     align-items: center;
   }
@@ -495,7 +498,7 @@ screen and (max-width: 960px) {
     padding: 15px;
   }
 
-  .pub-row {
+  .pub-row, note-row {
     display: flex;
     align-items: center;
   }
@@ -516,7 +519,7 @@ screen and (max-width: 960px) {
 @media print,
 screen and (max-width: 480px) {
 
-  .pub-row {
+  .pub-row, note-row {
     display: block;
     align-items: center;
   }

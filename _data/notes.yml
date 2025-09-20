@@ -3,11 +3,13 @@ main:
   - title: Vector encoding of phylogenetic trees
     date: September 2024
     poster: ./assets/files/ola_code_poster.pdf
+    slides: ./assets/files/ola_code_slides.pdf
 
   - title: Ricci curvature on graphs
     date: January 2024
     venue: JMM San Francisco
     slides: ./assets/files/ricci_flow_slides.pdf
+    image: ./assets/img/ricci_flow_thumb.png
 
   - title: Matchings in convergent graph sequences
     date: March 2017

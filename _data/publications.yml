@@ -7,7 +7,7 @@ main:
 
   - title: Vector encoding of phylogenetic trees by ordered leaf attachment
     authors: Harry Richman, Cheng Zhang, Erick Matsen
-    pdf: https://arxiv.org/pdf/2503.10169
+    arxiv: https://arxiv.org/abs/2503.10169
     code: https://github.com/matsengrp/ola-encoding
     image: ./assets/img/ola_tree_thumb.png
     notes: submitted
@@ -23,13 +23,14 @@ main:
 
   - title: The floor quotient partial order
     authors: Jeffrey Lagarias, Harry Richman
-    journal_short: Adv. Appl. Math.
-    journal: Adv. App. Math.
+    journal_short: Adv Appl Math
+    journal: Adv. in Appl. Math.
     year: 2024
     link: https://doi.org/10.1016/j.aam.2023.102615
     arxiv: https://arxiv.org/abs/2212.11689
     bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=floor%20quotient%20partial%20order&year=2024
-    code: https://harryrichman.github.io/floor-quotients-app/
+    code: https://github.com/harryrichman/floor-quotients-app
+    demo: https://harryrichman.github.io/floor-quotients-app/
     image: ./assets/img/floor_quotient_thumb.png
 
   - title: Derangements and the $p$-adic incomplete gamma function
@@ -41,18 +42,19 @@ main:
     bibtex: https://mathscinet.ams.org/mrlookup?au=richman&ti=derangements%20and%20p%20adic&year=2023
     arxiv: https://arxiv.org/abs/2012.04615
 
-  - title: Principal minors of tree distance matrices
-    authors: Harry Richman, Farbod Shokrieh, Chenxi Wu
-    pdf: https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2025/50.pdf
-    arxiv: https://arxiv.org/abs/2411.11488
-    journal_short: FPSAC
-    journal: Formal Power Series and Algebraic Combinatorics
+  # - title: Principal minors of tree distance matrices
+  #   authors: Harry Richman, Farbod Shokrieh, Chenxi Wu
+  #   pdf: https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2025/50.pdf
+  #   arxiv: https://arxiv.org/abs/2411.11488
+  #   journal_short: FPSAC
+  #   journal: Formal Power Series and Algebraic Combinatorics
 
   - title: Counting two-forests and random cut size via potential theory
     authors: Harry Richman, Farbod Shokrieh, Chenxi Wu
-    link:
+    link: https://imstat.org/journals-and-publications/annales-de-linstitut-henri-poincare/annales-de-linstitut-henri-poincare-accepted-papers/
     year: 2025
     arxiv: https://arxiv.org/abs/2308.03859
     journal_short: AIHP B
     journal: Annales Institut Henri Poincare Probab. Stat.
+    pdf: https://www.e-publications.org/ims/submission/AIHP/user/submissionFile/64215?confirm=e312f995
 

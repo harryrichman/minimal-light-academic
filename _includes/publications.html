@@ -1,4 +1,5 @@
 <div class="publications">
+
   {% if site.enable_publication_thumbnails %}
   <ol class="bibliography">
   {% else %}
@@ -47,17 +48,21 @@
             <a href="{{ pub.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">arXiv</a>
             {% endif %}
-            {% if pub.code %}
-            <a href="{{ pub.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
-              style="font-size:12px;">Code</a>
+            {% if pub.bibtex %}
+            <a href="{{ pub.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+              style="font-size:12px;">BibTex</a>
             {% endif %}
             {% if pub.page %}
             <a href="{{ pub.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
               style="font-size:12px;">Project Page</a>
             {% endif %}
-            {% if pub.bibtex %}
-            <a href="{{ pub.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
-              style="font-size:12px;">BibTex</a>
+            {% if pub.code %}
+            <a href="{{ pub.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+              style="font-size:12px;">Code</a>
+            {% endif %}
+            {% if pub.demo %}
+            <a href="{{ pub.demo }}" class="btn btn-sm z-depth-0" role="button" target="_blank"
+              style="font-size:12px;">Demo</a>
             {% endif %}
             {% if pub.notes %}
             <strong> <i style="color:#e74d3c">{{ pub.notes }}</i></strong>

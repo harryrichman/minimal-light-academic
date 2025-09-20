@@ -43,8 +43,8 @@ when $X$ is an algebraic curve.
 
 **University of Washington**
 
-- Math 115, Calculus 1, Fall 2019
-- Math 208, Linear Algebra, Fall 2020
+- [Math 115](https://dept.math.lsa.umich.edu/courses/115/), Calculus 1, Fall 2019
+- [Math 208](https://sites.math.washington.edu/~m208/), Linear Algebra, Fall 2020
 
 ## Service
 
@@ -63,18 +63,21 @@ when $X$ is an algebraic curve.
 - [MathSciNet](https://mathscinet.ams.org/mathscinet)
 - [Online Encyclopedia of Integer Sequences (OEIS)](https://oeis.org/)
 
-Markdown code:
-```shell
-bundle exec jekyll server
-```
+**Other features:**
+- Mathjax enabled: use `$...$` or `\\(...\\)` for inline mode, use `\\[...\\]` for display mode
 
+- Markdown code:
 ```ruby
 # Ruby code with syntax highlighting
 GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
+```shell
+bundle exec jekyll server
+```
 
-Markdown for a math quote:
+
+- Markdown for a math quote:
 > God is always doing geometry  
 > -- Plato
