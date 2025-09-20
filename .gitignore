@@ -1,7 +1,35 @@
-.DS_Store
-*.gem
 git-update.sh
+
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Ruby/Bundler
+.bundle/
+vendor/
 Gemfile.lock
-.jekyll-cache
-.sass-cache
-_site
+*.gem
+.ruby-version
+
+# OS
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
