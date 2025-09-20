@@ -1,27 +1,85 @@
-# Minimal Light Theme
+# Minimal Light Academic Theme
 
-[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+[![LICENSE](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://github.com/harryrichman/minimal-light-academic/blob/main/LICENSE)
 
-This is a fork of an academic website template created by Yaoyao Liu.
+This is an academic website template.
 
-\[[Demo the theme](https://harryrichman.github.io/minimal-light-academic/)\]  \[[简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md)\]
+\[[Demo the theme](https://harryrichman.github.io/minimal-light-academic/)\]  
  
 *This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
 <br>
-*Feel free to use and share the source code anywhere you like.*
 
-An improved vision from [@Xiao-Chenguang](https://github.com/Xiao-Chenguang): [[link](https://github.com/Xiao-Chenguang/minimal-light)]
 
-**The latest version of my homepage is available here: <br><https://github.com/yaoyao-liu/homepage>**
-
-## Features
-
+**Features**:  
 - Simple and elegant personal homepage theme
 - Jekyll theme, automatically deployed by GitHub Pages
 - Basic search engine optimization
 - Mobile friendly
 - Supporting Markdown 
 - Supporting dark mode
+
+## Step-by-step instructions
+
+### 1. Make a copy of this repository in your github account
+
+Known as "forking" the repository.
+
+See instructions from GitHub [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository).
+Just follow steps 1.-7. there.
+You can ignore everything from "Cloning your forked repository" and afterwards.
+
+Then, do the following steps to the files in *your* version of the repository.
+
+### 1.1. Make your copy viewable online
+
+The easiest way is to publish it as your GitHub Pages website.
+
+See [instructions here](https://docs.github.com/en/pages/quickstart).
+
+There are additional options if you have purchased your own domain name, or have access to a domain name through your school / department / institution.
+
+Once you have finished this step, your website is *publically* viewable by *anyone on the internet*!
+Yay! 
+Also, this means you need to finish the rest of these steps ASAP to make the website accurate and presentable.
+
+### 2. Edit the `_config.yml` file
+
+This contains basic data such as your name, institution, and some contact info.
+
+Add a photo to the folder `assets/img/` directory.
+
+### 3. Edit the `index.md` file
+
+This contains the main content of your website, other than the publications and notes.
+These are handled separately by a "fancier" process (by default).
+
+Decide which sections you want to keep, which you want to delete, and which you want to reorder.
+You can add new sections too, if desired.
+
+Optionally, you could choose to write everything in the `index.md` file, but the tradeoff is you lose some built-in features.
+
+### 4. Edit the `publications.yml` file
+
+This contains the data of your publications.
+
+Some data may require you to add files to the `assets/files/` directory.
+If you want to include thumbnails next to your publications, include these in the `assets/img/` directory.
+
+### 5. Edit the `notes.yml` file
+
+This contains the data of your expository notes, presentation slides, posters, etc.
+
+Some data may require you to add files to the `assets/files/` directory.
+
+### 6. Decide on other optional configuration parameters
+
+???
+
+To modify the appearance of the website, edit `_layouts/homepage.html` and / or `_sass/minimal-light.scss`.
+
+To modify the appearance of the publications and notes, edit the `_includes/publications.html` and `_includes/notes.html` files, respectively.
+
+
 
 ## Project Architecture
 
@@ -38,7 +96,6 @@ An improved vision from [@Xiao-Chenguang](https://github.com/Xiao-Chenguang): [[
 |   ├── minimal-light.scss                    # compiled into a CSS file to control the style of the page              
 |   └── minimal-light-no-dark-mode.scss       # similar to minimal-light.scss with the dark mode disabled
 ├── assets                                    # some files
-├── html_source_file                          # compiled HTML files
 ├── .gitignore                                # this file specifies intentionally untracked files that Git should ignore
 ├── Gemfile                                   #  
 ├── LICENSE                                   # the license file
@@ -49,10 +106,10 @@ An improved vision from [@Xiao-Chenguang](https://github.com/Xiao-Chenguang): [[
 └── index.md                                  # the content of the index page, using Markdown
 ```
 
-## Getting Started
+## Advanced options
 
-This template can be used in the following two ways: 
-- **Using with the GitHub Pages Service.** GitHub will provide you with a server to generate and host web pages.
+If you know a bit how to use git, then you can edit and test your website locally rather than making every change directly on Github.
+
 - **Using locally with Jekyll.** You may install Jekyll on your own computer and generate static web pages (i.e., HTML files) with this template. After that, you may upload the HTML files to your server.
 
 The detailed instructions are available below.
@@ -68,15 +125,7 @@ There are two ways to use this template on GitHub:
 - Enable the GitHub pages for that repository following the steps [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
 
 #### Using this repository as a remote theme
-To use this theme, add the following to your repository's `_config.yml`:
-
-```yaml
-remote_theme: yaoyao-liu/minimal-light
-```
-
-Please note that adding the above line will directly apply all the default settings in this repository to yours.
-
-If you hope to edit any files (e.g., `index.md`), you still need to copy them to your repository.
+???
 
 ### Using Locally with Jekyll
 
@@ -92,7 +141,6 @@ Install and run:
 
 ```bash
 bundle install
-bundle add webrick
 bundle exec jekyll server
 ```
 View the live page using `localhost`:
@@ -104,53 +152,13 @@ The compiled HTML files are available in the `html_source_file` folder. If you d
 
 ## Customizing
 
-### Configuration variables
+### Required customization
 
-The Minimal Light theme will respect the following variables, if set in your site's `_config.yml`:
+### Optional customization 
 
-  ```yaml
-# Basic Information 
-title: Your Name
-position: Ph.D. Student
-affiliation: Your Affiliation
-email: yourname (at) example.edu
 
-# Search Engine Optimization (SEO)
-# The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
 
-# Links 
-# If you don't need one of them, you may delete the corresponding line.
-google_scholar: https://scholar.google.com/
-cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
-linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
 
-# Images (e.g., your profile picture and your website's favicon) 
-# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/avatar.png
-favicon: ./assets/img/favicon.png
-favicon_dark: ./assets/img/favicon-dark.png
-
-# Footnote
-# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-enable_footnote: true
-
-# Auto Dark Mode
-# You may use the option to disable the automatic dark theme
-auto_dark_mode: true
-
-# Font
-# You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
-
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
-  ```
 ### Edit `index.md`
 
 Create `index.md` and add your personal information. It supports **Markdown** and **HTML** syntax.
@@ -174,16 +182,17 @@ If you'd like to change the theme's HTML layout, you may edit `_layout/homepage.
 
 ## License
 
-This work is licensed under a [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) License.
+This work is licensed under a [Creative Commons Zero v1.0 Universal](https://github.com/haryrichman/minimal-light-academic/blob/master/LICENSE) License.
 
 ## Acknowledgements
 
 Our project uses the source code from the following repositories:
 
-* [yaoyao-liu/minimal-light](https://github.com/yaoyao-liu/minimal-light)
+* &#x21A2; [yaoyao-liu/minimal-light](https://github.com/yaoyao-liu/minimal-light)
+  * -> [Xiao-chenguang/minimal-light](https://github.com/Xiao-Chenguang/minimal-light)
+  * <- [pages-themes/minimal](https://github.com/pages-themes/minimal)
 
-* [pages-themes/minimal](https://github.com/pages-themes/minimal)
+  * <- [orderedlist/minimal](https://github.com/orderedlist/minimal)
 
-* [orderedlist/minimal](https://github.com/orderedlist/minimal)
+  * &#x21A2; [al-folio](https://github.com/alshedivat/al-folio)
 
-* [al-folio](https://github.com/alshedivat/al-folio)
