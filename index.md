@@ -63,8 +63,8 @@ when $X$ is an algebraic curve.
 - [MathSciNet](https://mathscinet.ams.org/mathscinet)
 - [Online Encyclopedia of Integer Sequences (OEIS)](https://oeis.org/)
 
-**Other features:**
-- Mathjax enabled: use `$...$` or `\\(...\\)` for inline mode, use `\\[...\\]` for display mode
+**Other template features:**
+- Mathjax enabled: use `$...$` or `\\(...\\)` for inline mode; use `\\[...\\]` for display mode
 
 - Markdown code:
 ```ruby
@@ -73,10 +73,6 @@ GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
-```shell
-bundle exec jekyll server
-```
-
 
 - Markdown for a math quote:
 > God is always doing geometry  
